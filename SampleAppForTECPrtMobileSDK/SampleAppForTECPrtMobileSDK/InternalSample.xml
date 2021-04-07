@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguredDevices>
+    <POSPrinter logicalDeviceName="TRSTP1XL" DeviceName="TOSHIBA TEC TRST-P1X POS Printer" Description="LAN Printer">
+        <Configure interface="LAN" ipAddress="192.168.1.156" tcp="9100" udp="3000">
+            <Parameter name="PaperWidth" value="80"/>
+            <Parameter name="FontSize" value="Font1"/>
+        </Configure>
+    </POSPrinter>
+    <POSPrinter logicalDeviceName="TRSTP2XL" DeviceName="TOSHIBA TEC TRST-P2X POS Printer" Description="LAN Printer">
+        <Configure interface="LAN" ipAddress="192.168.1.157" tcp="9100" udp="3000">
+            <Parameter name="PaperWidth" value="80"/>
+            <Parameter name="FontSize" value="Font1"/>
+        </Configure>
+    </POSPrinter>
+</ConfiguredDevices>
+

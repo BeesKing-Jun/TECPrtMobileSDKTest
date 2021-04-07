@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A249FB32373DDD5008D18F6 /* LogicalDeviceNameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A249FB22373DDD5008D18F6 /* LogicalDeviceNameListViewController.swift */; };
+		2A249FB52373DFCE008D18F6 /* POSPrinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A249FB42373DFCE008D18F6 /* POSPrinterViewController.swift */; };
+		2A249FB72373EDDE008D18F6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A249FB62373EDDE008D18F6 /* StringExtension.swift */; };
+		2A249FB92373EF44008D18F6 /* InternalSample.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2A249FB82373EF44008D18F6 /* InternalSample.xml */; };
+		2A89918F2372AE2900763030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89918E2372AE2900763030 /* AppDelegate.swift */; };
+		2A8991962372AE2900763030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8991942372AE2900763030 /* Main.storyboard */; };
+		2A8991982372AE2A00763030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8991972372AE2A00763030 /* Assets.xcassets */; };
+		2A89919B2372AE2A00763030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8991992372AE2A00763030 /* LaunchScreen.storyboard */; };
+		C3A3542024DC02360035FE91 /* libTECPrtMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8991AA2372B88600763030 /* libTECPrtMobileSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A249FB22373DDD5008D18F6 /* LogicalDeviceNameListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicalDeviceNameListViewController.swift; sourceTree = "<group>"; };
+		2A249FB42373DFCE008D18F6 /* POSPrinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSPrinterViewController.swift; sourceTree = "<group>"; };
+		2A249FB62373EDDE008D18F6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		2A249FB82373EF44008D18F6 /* InternalSample.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = InternalSample.xml; sourceTree = "<group>"; };
+		2A249FBA23740C9A008D18F6 /* TECPOSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPOSDevice.h; sourceTree = "<group>"; };
+		2A249FBB23740DB1008D18F6 /* ConfiguredDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguredDevice.h; sourceTree = "<group>"; };
+		2A249FC423740E61008D18F6 /* TECPOSPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPOSPrinter.h; sourceTree = "<group>"; };
+		2A89918B2372AE2900763030 /* SampleAppForTECPrtMobileSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppForTECPrtMobileSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A89918E2372AE2900763030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A8991952372AE2900763030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A8991972372AE2A00763030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A89919A2372AE2A00763030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A89919C2372AE2A00763030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8991AA2372B88600763030 /* libTECPrtMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTECPrtMobileSDK.a; sourceTree = "<group>"; };
+		2A8991AC2372B88600763030 /* TRSTP2XPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRSTP2XPrinter.h; sourceTree = "<group>"; };
+		2A8991AD2372B88600763030 /* TECPOSResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TECPOSResource.h; sourceTree = "<group>"; };
+		2A8991AF2372B88600763030 /* TRSTP1XPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRSTP1XPrinter.h; sourceTree = "<group>"; };
+		2A8991B12372B8BD00763030 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A8991B32372B91500763030 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2AB59EDD237A7BD700C4C1D2 /* TECFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECFile.h; sourceTree = "<group>"; };
+		2AB59EDE237A7BD700C4C1D2 /* TECCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECCommon.h; sourceTree = "<group>"; };
+		2AB59EDF237A7BD700C4C1D2 /* TECInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECInterface.h; sourceTree = "<group>"; };
+		2AB59EE0237A7BD700C4C1D2 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		2AB59EE1237A7BD700C4C1D2 /* ConfiguredDeviceXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguredDeviceXMLParser.h; sourceTree = "<group>"; };
+		2AB59EE2237A7BD700C4C1D2 /* TECLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECLog.h; sourceTree = "<group>"; };
+		2AB59EE3237A7BD700C4C1D2 /* CommonXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonXMLParser.h; sourceTree = "<group>"; };
+		C3A3541C24DBCE250035FE91 /* libTECPrtMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTECPrtMobileSDK.a; path = ../../TECMobileSDK/libTECPrtMobileSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8991882372AE2900763030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A3542024DC02360035FE91 /* libTECPrtMobileSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8991822372AE2900763030 = {
+			isa = PBXGroup;
+			children = (
+				2A89918D2372AE2900763030 /* SampleAppForTECPrtMobileSDK */,
+				2A89918C2372AE2900763030 /* Products */,
+				2A8991A82372B88500763030 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A89918C2372AE2900763030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A89918B2372AE2900763030 /* SampleAppForTECPrtMobileSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A89918D2372AE2900763030 /* SampleAppForTECPrtMobileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A89918E2372AE2900763030 /* AppDelegate.swift */,
+				2A8991942372AE2900763030 /* Main.storyboard */,
+				2A8991972372AE2A00763030 /* Assets.xcassets */,
+				2A8991992372AE2A00763030 /* LaunchScreen.storyboard */,
+				2A89919C2372AE2A00763030 /* Info.plist */,
+				2A8991B32372B91500763030 /* Bridging-Header.h */,
+				2A249FB22373DDD5008D18F6 /* LogicalDeviceNameListViewController.swift */,
+				2A249FB42373DFCE008D18F6 /* POSPrinterViewController.swift */,
+				2A249FB62373EDDE008D18F6 /* StringExtension.swift */,
+				2A249FB82373EF44008D18F6 /* InternalSample.xml */,
+			);
+			path = SampleAppForTECPrtMobileSDK;
+			sourceTree = "<group>";
+		};
+		2A8991A82372B88500763030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A3541C24DBCE250035FE91 /* libTECPrtMobileSDK.a */,
+				2A8991B12372B8BD00763030 /* UIKit.framework */,
+				2A8991A92372B88600763030 /* TECPrtMobileSDK */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A8991A92372B88600763030 /* TECPrtMobileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A8991AA2372B88600763030 /* libTECPrtMobileSDK.a */,
+				2A8991AB2372B88600763030 /* include */,
+			);
+			name = TECPrtMobileSDK;
+			path = SampleAppForTECPrtMobileSDK/TECPrtMobileSDK;
+			sourceTree = "<group>";
+		};
+		2A8991AB2372B88600763030 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2AB59EE0237A7BD700C4C1D2 /* Resource.h */,
+				2AB59EDE237A7BD700C4C1D2 /* TECCommon.h */,
+				2AB59EDD237A7BD700C4C1D2 /* TECFile.h */,
+				2AB59EE2237A7BD700C4C1D2 /* TECLog.h */,
+				2AB59EDF237A7BD700C4C1D2 /* TECInterface.h */,
+				2AB59EE3237A7BD700C4C1D2 /* CommonXMLParser.h */,
+				2AB59EE1237A7BD700C4C1D2 /* ConfiguredDeviceXMLParser.h */,
+				2A8991AD2372B88600763030 /* TECPOSResource.h */,
+				2A249FBB23740DB1008D18F6 /* ConfiguredDevice.h */,
+				2A249FBA23740C9A008D18F6 /* TECPOSDevice.h */,
+				2A249FC423740E61008D18F6 /* TECPOSPrinter.h */,
+				2A8991AF2372B88600763030 /* TRSTP1XPrinter.h */,
+				2A8991AC2372B88600763030 /* TRSTP2XPrinter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A89918A2372AE2900763030 /* SampleAppForTECPrtMobileSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A89919F2372AE2A00763030 /* Build configuration list for PBXNativeTarget "SampleAppForTECPrtMobileSDK" */;
+			buildPhases = (
+				2A8991872372AE2900763030 /* Sources */,
+				2A8991882372AE2900763030 /* Frameworks */,
+				2A8991892372AE2900763030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppForTECPrtMobileSDK;
+			productName = SampleAppForTECPrtMobileSDK;
+			productReference = 2A89918B2372AE2900763030 /* SampleAppForTECPrtMobileSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8991832372AE2900763030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = RSODMF;
+				TargetAttributes = {
+					2A89918A2372AE2900763030 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A8991862372AE2900763030 /* Build configuration list for PBXProject "SampleAppForTECPrtMobileSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A8991822372AE2900763030;
+			productRefGroup = 2A89918C2372AE2900763030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A89918A2372AE2900763030 /* SampleAppForTECPrtMobileSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8991892372AE2900763030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A249FB92373EF44008D18F6 /* InternalSample.xml in Resources */,
+				2A89919B2372AE2A00763030 /* LaunchScreen.storyboard in Resources */,
+				2A8991982372AE2A00763030 /* Assets.xcassets in Resources */,
+				2A8991962372AE2900763030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8991872372AE2900763030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A249FB72373EDDE008D18F6 /* StringExtension.swift in Sources */,
+				2A89918F2372AE2900763030 /* AppDelegate.swift in Sources */,
+				2A249FB32373DDD5008D18F6 /* LogicalDeviceNameListViewController.swift in Sources */,
+				2A249FB52373DFCE008D18F6 /* POSPrinterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A8991942372AE2900763030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8991952372AE2900763030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8991992372AE2A00763030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A89919A2372AE2A00763030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A89919D2372AE2A00763030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A89919E2372AE2A00763030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8991A02372AE2A00763030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SampleAppForTECPrtMobileSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SampleAppForTECPrtMobileSDK/TECPrtMobileSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.printer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppForTECPrtMobileSDK/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8991A12372AE2A00763030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SampleAppForTECPrtMobileSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SampleAppForTECPrtMobileSDK/TECPrtMobileSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.printer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppForTECPrtMobileSDK/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8991862372AE2900763030 /* Build configuration list for PBXProject "SampleAppForTECPrtMobileSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A89919D2372AE2A00763030 /* Debug */,
+				2A89919E2372AE2A00763030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A89919F2372AE2A00763030 /* Build configuration list for PBXNativeTarget "SampleAppForTECPrtMobileSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8991A02372AE2A00763030 /* Debug */,
+				2A8991A12372AE2A00763030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A8991832372AE2900763030 /* Project object */;
+}
